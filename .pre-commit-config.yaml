@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/soumith2105/secrethook
+    rev: v0.1.0-dev
+    hooks:
+      - id: secrethook

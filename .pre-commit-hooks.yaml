@@ -1,0 +1,10 @@
+- id: secrethook
+  name: Secret Hook
+  entry: secrethook
+  language: python
+  types: [text]
+  files: >
+    \.(py|ipynb|sh|bat|env|json|ya?ml|toml|ini|cfg|txt|md|
+    html?|css|s[ac]ss|js|ts|jsx?|tsx|vue|
+    sql|db|sqlite|csv|tsv|log|Dockerfile|Makefile|gitlab-ci\.yml|
+    github/workflows/.*\.ya?ml)$

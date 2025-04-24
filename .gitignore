@@ -1,0 +1,45 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / optimized / library files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# UV / pip-related cache
+.uv/
+pip-wheel-metadata/
+*.lock
+
+# Test artifacts
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.cache/
+.pytest_cache/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Project-specific
+*.secrets.json
+*.test_output

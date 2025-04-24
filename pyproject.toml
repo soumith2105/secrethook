@@ -1,0 +1,29 @@
+[project]
+name = "secrethook"
+version = "0.1.0-dev"
+description = "Real-Time Code Secrets Detector using Git Hooks and CI Integration"
+authors = [
+    { name = "Soumith Reddy Podduturi", email = "soumithreddypodduturi@gmail.com" }, 
+    { name = "Nikhath Firdose", email = "nikhath.firdose98@gmail.com" }, 
+    { name = "Veera Vivek Telagani", email = "telaganiveeravivek@gmail.com" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "pre-commit"
+]
+
+[project.scripts]
+secrethook = "secrethook.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
